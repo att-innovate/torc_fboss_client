@@ -1,16 +1,15 @@
-# torc_fboss_client
-# 
-# Underlying thrift layer is a simplified version of https://github.com/terminalcloud/thrift/tree/master/lib/rs
-#
+# torc_fboss_client 
 
 Simple FBOSS client written in Rust.
 
-This library includes sample code in the example folder.
-To run follow steps below and replace `127.0.0.1:5909` with the connection arguments for your FBOSS agent
+Underlying thrift layer is a simplified version of https://github.com/terminalcloud/thrift/tree/master/lib/rs
 
 Build library:
 
 	cargo build
+
+The example folder contains some sample code.
+To run follow steps below and replace `127.0.0.1:5909` with the connection arguments for your FBOSS agent
 
 Build and run example list_port_stats:
 	
