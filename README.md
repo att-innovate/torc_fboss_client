@@ -2,6 +2,8 @@
 
 Simple FBOSS client written in Rust.
 
+We us it in our ToRC project, further information can be found at: [https://att-innovate.github.io/torc/](https://att-innovate.github.io/torc/) 
+
 Underlying thrift layer is a simplified version of https://github.com/terminalcloud/thrift/tree/master/lib/rs
 
 Build library:
